@@ -145,7 +145,7 @@ const Page = ({ location, pageContext }) => {
                 {/* <video src={interviewMovie} controls></video> */}
 
               </div>
-              <p className="name"><span className="small">代表取締役</span>名字 名前</p>
+              <p className="name"><span className="small">代表取締役</span>小林 茂樹</p>
             </div>
 
             {/* 従業員インタビュー */}
