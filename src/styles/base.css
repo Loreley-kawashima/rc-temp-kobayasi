@@ -12,9 +12,12 @@ Version: 1.0
 
 :root {
   --color-dark: #212836;
-  --color-main: #4574BB;
-  --color-sub: #4F74B6;
+  --color-main: #48bf58;
+  --color-sub: #03551f;
+  --color-sub01: #09963f;
+  --color-sub02: #9cc867;
   --color-small: #dd2200;
+  --color-footer: #3a5f7d;
 }
 
 .aligncenter {
@@ -188,15 +191,15 @@ a:link {
 }
 
 a:visited {
-  color: var(--color-dark);
+  color: var(--color-sub);
 }
 
 a:hover {
-  color: var(--color-dark);
+  color: var(--color-sub);
 }
 
 a:active {
-  color: var(--color-dark);
+  color: var(--color-sub);
 }
 
 /*------------------------------------------------------------
@@ -349,7 +352,7 @@ a[href^="tel:"] {
   font-weight: 500;
   width: 194px;
   text-align: center;
-  background: var(--color-dark);
+  background: var(--color-sub02);
   letter-spacing: 0.06em;
   cursor: pointer;
 }
@@ -423,7 +426,7 @@ a[href^="tel:"] {
   right: 0;
   top: 83px;
   width: 550px;
-  background: #7A9CD0;
+  background: #48bf58;
   z-index: 1000;
   height: calc(100% - 83px);
   overflow-y: auto;
@@ -635,7 +638,7 @@ a[href^="tel:"] {
 ------------------------------------------------------------*/
 #gFooter {
   padding: 30px 0;
-  background-color: var(--color-dark);
+  background-color: var(--color-footer);
   color: #fff;
 }
 
@@ -684,7 +687,7 @@ a[href^="tel:"] {
 
 .pageTop a {
   display: inline-block;
-  background: var(--color-dark);
+  background: var(--color-sub02);
   cursor: pointer;
 }
 
@@ -1015,7 +1018,7 @@ a[href^="tel:"] {
 ------------------------------------------------------------*/
 .comCompany {
   padding: 100px 0;
-  background: var(--color-main);
+  background: var(--color-sub01);
 }
 
 .comCompany .headLine04 {
@@ -1026,7 +1029,7 @@ a[href^="tel:"] {
 
 .comCompany .headLine04 .en {
   color: #fff;
-  opacity: 0.1;
+  opacity: 0.2;
 }
 
 .comCompany .headLine04 .jp {
@@ -1409,7 +1412,7 @@ a[href^="tel:"] {
 .comMore a {
   width: 100%;
   height: 100%;
-  background-color: var(--color-dark);
+  background-color: var(--color-sub);
   color: #fff;
   position: relative;
   display: flex;
@@ -1445,7 +1448,7 @@ a[href^="tel:"] {
   width: 0;
   left: auto;
   right: 0;
-  background-color: #d0e3fd;
+  background-color: var(--color-sub02);
   transition-duration: 0.5s;
   transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
   -ms-transition-duration: 0.5s;
@@ -1465,7 +1468,7 @@ a[href^="tel:"] {
   }
 
   .comMore a:hover {
-    color: var(--color-dark);
+    color: #FFF;
   }
 
   .comMore a:hover::before {
@@ -1621,7 +1624,7 @@ a[href^="tel:"] {
   letter-spacing: 0.06em;
   z-index: 10;
   width: 285px;
-  background: var(--color-dark);
+  background: var(--color-sub);
   box-sizing: border-box;
 }
 
@@ -1772,7 +1775,7 @@ a[href^="tel:"] {
 }
 
 .indexPage .aboutSec .aboutBox .headLine04 .en {
-  opacity: 0.1;
+  opacity: 0.2;
 }
 
 .indexPage .aboutSec .aboutBox .headLine04 .jp {
@@ -1793,7 +1796,7 @@ a[href^="tel:"] {
 }
 
 .indexPage .jobSec .headLine04 .en {
-  opacity: 0.1;
+  opacity: 0.2;
   color: var(--color-main);
 }
 
@@ -1840,7 +1843,7 @@ a[href^="tel:"] {
 }
 
 .indexPage .jobSec .innerBox .textBox .jobTagBox span {
-  background: #777777;
+  background: var(--color-main);
   color: #FFFFFF;
   margin-right: 5px;
   padding: 3px 20px;
@@ -1980,7 +1983,7 @@ a[href^="tel:"] {
 
   .indexPage .interviewSec {
     padding: 65px 0 0;
-    background: #EDF4FA;
+    background: #e6f4ee;
   }
 
   .indexPage .interviewSec .listUl li {
@@ -2038,12 +2041,12 @@ a[href^="tel:"] {
   .indexPage .aboutSec {
     margin-bottom: 0;
     padding: 0;
-    background: #EDF4FA;
+    background: #e6f4ee;
   }
 
   .indexPage .aboutSec .aboutBox {
     margin-bottom: 0;
-    padding-bottom: 50px;
+    padding-bottom: 80px;
     height: auto;
     display: block;
   }
@@ -2075,7 +2078,7 @@ a[href^="tel:"] {
 
   .indexPage .jobSec {
     padding: 60px 0 52px;
-    background: #EDF4FA;
+    background: #e6f4ee;
     position: relative;
     z-index: 1;
   }
@@ -2088,7 +2091,7 @@ a[href^="tel:"] {
     aspect-ratio: 1;
     top: 0;
     right: 0;
-    background: #dce9f5;
+    background: #dfeee6;
     clip-path: polygon(100% 0, 0 0, 100% 100%);
     z-index: -1;
   }
@@ -2101,7 +2104,7 @@ a[href^="tel:"] {
     aspect-ratio: 1;
     bottom: 0;
     left: 0;
-    background: #dce9f5;
+    background: #dfeee6;
     clip-path: polygon(100% 100%, 0 0, 0 100%);
     z-index: -1;
   }
@@ -2337,7 +2340,8 @@ a[href^="tel:"] {
 
 .recruitPage .recruitSec .innerBox .textBox td span {
   display: inline-block;
-  color: var(--color-main);
+  color: #FFF;
+  background-color: var(--color-main);
   border: 1px solid var(--color-main);
   padding: 0 20px;
 }
@@ -2353,7 +2357,7 @@ a[href^="tel:"] {
 }
 
 .recruitPage .pointSec .pointBox {
-  border: 1px solid #DBE1E7;
+  border: 1px solid #48bf58;
   background: #FFFFFF;
   padding: 50px;
   display: flex;
@@ -2484,7 +2488,7 @@ a[href^="tel:"] {
 /*--- 福利厚生 ---*/
 .recruitPage .welfareSec {
   padding: 120px 0;
-  background: #EDF4FA;
+  background: #dfeee6;
 }
 
 .recruitPage .welfareSec ul {
@@ -2501,8 +2505,8 @@ a[href^="tel:"] {
 
 .recruitPage .welfareSec ul>li figure {
   background: #FFFFFF;
-  border: 1px solid #DBE1E7;
-  padding: 45px;
+  border: 1px solid #e6f4ee;
+  padding: 20px;
   text-align: center;
 }
 
@@ -2522,7 +2526,7 @@ a[href^="tel:"] {
 /*--- 1日のスケジュール ---*/
 .recruitPage .oneDay {
   padding: 145px 0 240px;
-  background: rgba(184, 204, 237, 0.69);
+  background: #e6f4ee;
 }
 
 .recruitPage .oneDay h3 {
@@ -2799,7 +2803,7 @@ a[href^="tel:"] {
   .recruitPage .interviewSec,
   .recruitPage .companySec {
     position: relative;
-    background-color: #EDF4FA;
+    background-color: #e6f4ee;
     z-index: 1;
   }
 
@@ -2813,7 +2817,7 @@ a[href^="tel:"] {
     aspect-ratio: 1;
     top: 0;
     right: 0;
-    background: #dce9f5;
+    background: #dfeee6;
     clip-path: polygon(100% 0, 0 0, 100% 100%);
     z-index: -1;
   }
@@ -2828,7 +2832,7 @@ a[href^="tel:"] {
     aspect-ratio: 1;
     bottom: 0;
     left: 0;
-    background: #dce9f5;
+    background: #dfeee6;
     clip-path: polygon(100% 100%, 0 0, 0 100%);
     z-index: -1;
   }
@@ -2890,7 +2894,7 @@ a[href^="tel:"] {
   /*--- ポイント ---*/
   .recruitPage .pointSec {
     padding: 62px 0;
-    background: #EDF4FA;
+    /*background: #EDF4FA;*/
   }
 
   .recruitPage .pointSec .pointBox {
@@ -3232,7 +3236,7 @@ a[href^="tel:"] {
   justify-content: center;
   font-size: 1.4rem;
   font-weight: 500;
-  background: var(--color-dark);
+  background: var(--color-main);
   text-align: center;
 }
 
@@ -3356,8 +3360,8 @@ a[href^="tel:"] {
 .contactPage .submit li .info01 {
   display: block;
   position: relative;
-  background: var(--color-dark);
-  border: 1px solid var(--color-dark);
+  background: var(--color-sub);
+  border: 1px solid var(--color-sub);
 }
 
 .contactPage .submit li .info02 {
